@@ -4,7 +4,7 @@ title:  "Universal Functions in NumPy"
 date:   2018-02-01 03:00:00 +0530
 categories: python numpy
 ---
-Universal functions (aka ufunc) in NumPy [numpy] are functions that can operate on `ndarray` instances in a vectorized mode. A universal function can take a scalar or an array as input argument and can apply some operation on the scalar or each element of the array respectively, i.e., vectorized mode.
+Universal functions (aka ufunc) in [NumPy] [numpy] are functions that can operate on `ndarray` instances in a vectorized mode. A universal function can take a scalar or an array as input argument and can apply some operation on the scalar or each element of the array respectively, i.e., vectorized mode.
 
 By the way, if you do not know about vectorization in NumPy I suggest you read [Introduction to NumPy] [intro] to get an understanding of it.
 
@@ -53,6 +53,7 @@ print(is_even(np.arange(1,10)))
 Now our function can take arrays as input arguments.
 
 In this post we have scrached the surface of `ufunc` in NumPy. However what you just learned can get you a long way in your data analytic work.
+
 Happy analysing...
 
 [numpy]: http://www.numpy.org/
