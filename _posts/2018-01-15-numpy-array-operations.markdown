@@ -4,9 +4,9 @@ title:  "NumPy Array Operations"
 date:   2018-01-15 08:00:00 +0530
 categories: python numpy
 ---
-In a [prvious post] [introduction] we discussed about [NumPy] [numpy], which forms the basis for most of the scientific computing in [Python] [python]. Today we are going to delve a little deeper into `ndarray`; the core object in NumPy package.
+In a [previous post] [introduction] we discussed about [NumPy] [numpy], which forms the basis for most of the scientific computing in [Python] [python]. Today we are going to delve a little deeper into `ndarray`; the core object in NumPy package.
 
-Essentially `ndarray` is an n-dimensional homogeneous array, which is capable of holding a large dataset and applying a wide range of mathematical operations on it. Most of these operations are implemented in compiled C code for efficient execution.
+Essentially `ndarray` is an n-dimensional homogeneous array, which is capable of holding a large data set and applying a wide range of mathematical operations on it. Most of these operations are implemented in compiled C code for efficient execution.
 
 # Creating Arrays
 First we will see commonly used methods for creating `ndarray` instances in NumPy.
@@ -59,8 +59,8 @@ x
 #       [ 4, 56, 74, 33]])
 {% endhighlight %}
 
-# Arithmatic operations
-All common arithmatic operations such as addition, subtraction, multiplication, division, modulus, exponent and florr division are applicable on arrays. When any of these are performed with a scalar the operation will be broadcasted to all the elements in the array. We will see how this work by applying addition and multiplication on the array that we created earlier from the CSV file. The rest of the arithmatic operations also will behave in the same way.
+# Arithmetic operations
+All common arithmetic operations such as addition, subtraction, multiplication, division, modulus, exponent and floor division are applicable on arrays. When any of these are performed with a scalar the operation will be broadcasted to all the elements in the array. We will see how this work by applying addition and multiplication on the array that we created earlier from the CSV file. The rest of the arithmatic operations also behave in the same way.
 {% highlight python %}
 ## Addition
 x+4
