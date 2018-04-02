@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Working with CSV Files in pandas"
-date:   2018-04-01 06:20:00 +0530
+date:   2018-03-31 06:20:00 +0530
 categories: python pandas csv
 ---
 
@@ -42,21 +42,28 @@ Now we are going to check how far `pandas` has correctly identified the data-typ
 
 {% highlight python %}
 df.dtypes
-#=>Date              object
-#  MSC               object
+#=>MSC               object
 #  Call Attempts      int64
 #  Call success       int64
 #  Call Answer        int64
 #  traffic          float64
 #  dtype: object
+
+df.index[0:2]
+#=>Index(['2015-01-10 00:00:00', '2015-01-10 01:00:00'], dtype='object', name='Date')
 {% endhighlight %}
 
-Unsurprisingly `pandas` has not been able to identify the Date.
+While the columns containing numbers have been identified as int64 or float the index has not been identified as a date. We can improve this by using the `parse_dates` parameter.
 
 {% highlight python %}
-
+df = pd.read_csv('data/msc_traffic_0110', index_col='Date', parse_dates=['Date'])
+df.index[0:2]
+#=>DatetimeIndex(['2015-01-10 00:00:00', '2015-01-10 01:00:00'], dtype='datetime64[ns]', name='Date', freq=None)
 {% endhighlight %}
 
+Now the Index has been identified as `datetime64` instead of `object` as before.
+
+# Using `groupby`
 
 {% highlight python %}
 
