@@ -26,9 +26,9 @@ df.head()
 #	4	2015-01-10 04:00:00	MSC_1	900		892		795		1424.728238
 {% endhighlight %}
 
-The `to_csv` function returns a DataFrame object with columns and rows mapped to the contents of the CSV file. This CSV file contains hourly voice call related data of **MSCs** in a telecommunication network. MSC (aka [Mobile Switching Center server] [msc]) is the central call handling node in a telcommunication network. Every call you send or receive on your mobile phone goes through a **MSC** in your service providers network. This particular CSV file contains some statistics related to call handling in MSCs in a telecommunication network. While the column names are somewhat self-explanatory I will provide a little more detail below.
+The `to_csv` function returns a DataFrame object with columns and rows mapped to the contents of the CSV file. This CSV file contains hourly voice call related data of **MSCs** in a telecommunication network. MSC (aka [Mobile Switching Center server] [msc]) is the central call handling node in a telecommunication network. Every call you send or receive on your mobile phone goes through a **MSC** in your service providers network. This particular CSV file contains some statistics related to call handling in MSCs in a telecommunication network. While the column names are somewhat self-explanatory I will provide a little more detail below.
 
-**Call Attempts** is the number of call attempts received to the MSC. **Call success** means the number of calls out of the **Call Attempts** where the MSC was able to connect the other party mobile phone (i.e. the other party mobile phone started ringing). **Call Answer** means the number of calls where the other party actually answered the call. The **traffic** column contain the total number of **call minutes** for that hour. You may observe that **Call success** is less tha **Call Attempt** which means some calls have been failed due to multiple reasons. 
+**Call Attempts** is the number of call attempts received to the MSC. **Call success** means the number of calls out of the **Call Attempts** where the MSC was able to connect the other party mobile phone (i.e. the other party mobile phone started ringing). **Call Answer** means the number of calls where the other party actually answered the call. The **traffic** column contain the total number of **call minutes** for that hour. You may observe that **Call success** is less than **Call Attempt** which means some calls have been failed due to multiple reasons. 
 
 While **Date** is the first column in our CSV file pandas has added an integer index to the DataFrame. Instead we can create an index with the **Date** column by using the `index_col` parameter in `read_csv`.
 
@@ -72,14 +72,14 @@ Now the Index has been identified as `datetime64` instead of `object` as before.
 
 # The time period
 
-If you had inspected the output of `head()` function earlier you may have noticed that our data frame has hourly data staring from 2015-01-10. So what is the time period of our data set? Since our DataFrame is now indexed with `datetime64` datatype we can use a multitude of `datetime` related functions to get an answer to this question.
+If you had inspected the output of `head()` function earlier you may have noticed that our data frame has hourly data staring from 2015-01-10. So what is the time period of our data set? Since our DataFrame is now indexed with `datetime64` data type we can use a multitude of `datetime` related functions to get an answer to this question.
 
 {% highlight python %}
 np.unique(df.index.date)
 #=>array([datetime.date(2015, 1, 10)], dtype=object)
 {% endhighlight %}
 
-`df.index.date` returns an `ndarray` of dates and we apply the `unique` function from `numpy` on it. So we can see that dataset has data for only one day - 10th of January 2015. Earlier we mentioned that the CSV file contains houlry data. Now we will examine the time values in it.
+`df.index.date` returns an `ndarray` of dates and we apply the `unique` function from `numpy` on it. So we can see that dataset has data for only one day - 10th of January 2015. Earlier we mentioned that the CSV file contains hourly data. Now we will examine the time values in it.
 
 {% highlight python %}
 df.index.hour
@@ -145,7 +145,7 @@ The `sum` is a `numpy` function which is passed as an argument to the `agg` (ali
 
 # Finding the failed calls
 
-You may remember that we mentioned that **Call sucess** is less than the **Call Attempts**. The difference between them are the number of failed calls. We will calculate that now.
+You may remember that we mentioned that **Call success** is less than the **Call Attempts**. The difference between them are the number of failed calls. We will calculate that now.
 
 {% highlight python %}
 df['Call Failure'] = df['Call Attempts'] - df['Call success']
@@ -168,7 +168,7 @@ gdf.agg({'Call Failure': 'max'})
 #MSC_2	351
 {% endhighlight %}
 
-Again we are trying to use the `agg` function where we pass a dictionary with column name and function to apply on the column. But do we get what we want? Not really. While we get the maximum number of call failures, without the time, this information is not very usefull.
+Again we are trying to use the `agg` function where we pass a dictionary with column name and function to apply on the column. But do we get what we want? Not really. While we get the maximum number of call failures, without the time, this information is not very useful.
 
 {% highlight python %}
 s1=gdf.get_group('MSC_1')
@@ -192,7 +192,7 @@ for name, group in gdf:
 #2015-01-10 21:00:00  	MSC_2   4021          	3670         	2995   	   	4400.457962     351 
 {% endhighlight %}
 
-Interstingly both **MSCs** have maximum call failures in the same hour - 9.00 PM.
+Interestingly both **MSCs** have maximum call failures in the same hour - 9.00 PM.
 
 So in this post we have done a detailed analysis of the data in our CSV file. In the next post we will try to create some graphs using our dataset of the telecommunication network.
 
