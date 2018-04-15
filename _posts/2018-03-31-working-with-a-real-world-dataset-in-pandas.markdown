@@ -5,7 +5,7 @@ date:   2018-03-31 06:20:00 +0530
 categories: python pandas csv grouping
 ---
 
-We got a brief introduction to [pandas] [pandas] in our [previous post] [introduction]. In this post we are going use [pandas] [pandas] for a real world use case: analysing data in a telecommunication network. 
+We got a brief introduction to [pandas] [pandas] in our [previous post] [introduction]. In this post we are going use [pandas] [pandas] for a real world use case: analysing data in a telecommunication network.
 
 First we will import `pandas`, and `numpy` also since we will be using it in our analysis.
 
@@ -28,7 +28,7 @@ df.head()
 
 The `to_csv` function returns a DataFrame object with columns and rows mapped to the contents of the CSV file. This CSV file contains hourly voice call related data of **MSCs** in a telecommunication network. MSC (aka [Mobile Switching Center server] [msc]) is the central call handling node in a telecommunication network. Every call you send or receive on your mobile phone goes through a **MSC** in your service providers network. This particular CSV file contains some statistics related to call handling in MSCs in a telecommunication network. While the column names are somewhat self-explanatory I will provide a little more detail below.
 
-**Call Attempts** is the number of call attempts received to the MSC. **Call success** means the number of calls out of the **Call Attempts** where the MSC was able to connect the other party mobile phone (i.e. the other party mobile phone started ringing). **Call Answer** means the number of calls where the other party actually answered the call. The **traffic** column contain the total number of **call minutes** for that hour. You may observe that **Call success** is less than **Call Attempt** which means some calls have been failed due to multiple reasons. 
+**Call Attempts** is the number of call attempts received to the MSC. **Call success** means the number of calls out of the **Call Attempts** where the MSC was able to connect the other party mobile phone (i.e. the other party mobile phone started ringing). **Call Answer** means the number of calls where the other party actually answered the call. The **traffic** column contain the total number of **call minutes** for that hour. You may observe that **Call success** is less than **Call Attempt** which means some calls have been failed due to multiple reasons.
 
 While **Date** is the first column in our CSV file pandas has added an integer index to the DataFrame. Instead we can create an index with the **Date** column by using the `index_col` parameter in `read_csv`.
 
@@ -119,7 +119,7 @@ df.MSC.unique()
 #=> array(['MSC_1', 'MSC_2'], dtype=object)
 {% endhighlight %}
 
-So we have data from two **MSCs** in our CSV file. Here the `df.MSC` returns a `Series` containing the `MSC` column in our `DataFrame` and `describe` and `unique` are functions that are applied on the `Series`. 
+So we have data from two **MSCs** in our CSV file. Here the `df.MSC` returns a `Series` containing the `MSC` column in our `DataFrame` and `describe` and `unique` are functions that are applied on the `Series`.
 
 # Traffic handling in each MSC
 
@@ -163,7 +163,7 @@ So what hour do we have maximum call failures in each MSC?
 gdf=df.groupby(['MSC'])
 gdf.agg({'Call Failure': 'max'})
 #=>	Call Failure
-#MSC	
+#MSC
 #MSC_1	320
 #MSC_2	351
 {% endhighlight %}
@@ -184,12 +184,12 @@ Instead we can use the technique above for each group, which will get the entire
 {% highlight python %}
 for name, group in gdf:
     print(group.nlargest(1, 'Call Failure'))
-#=>			MSC  	Call Attempts  	Call success  	Call Answer  	traffic  	Call Failure 
+#=>			MSC  	Call Attempts  	Call success  	Call Answer  	traffic  	Call Failure
 #Date                                                                   
 #2015-01-10 21:00:00  	MSC_1   4400          	4080         	3591   		6977.363196     320  
-#                       MSC  	Call Attempts  Call success  Call Answer  	traffic  	Call Failure 
+#                       MSC  	Call Attempts  Call success  Call Answer  	traffic  	Call Failure
 #Date                                                                   
-#2015-01-10 21:00:00  	MSC_2   4021          	3670         	2995   	   	4400.457962     351 
+#2015-01-10 21:00:00  	MSC_2   4021          	3670         	2995   	   	4400.457962     351
 {% endhighlight %}
 
 Interestingly both **MSCs** have maximum call failures in the same hour - 9.00 PM.
@@ -200,6 +200,4 @@ So in this post we have done a detailed analysis of the data in our CSV file. In
 [python]: https://www.python.org/
 [numpy]: http://www.numpy.org/
 [msc]: https://en.wikipedia.org/wiki/Mobile_switching_centre_server
-[introduction]: {{site.baseurl}}{% post_url2018-03-22-introduction to pandas %}
-
-
+[introduction]: {{site.baseurl}}{% post_url 2018-03-22-introduction to pandas %}

@@ -16,9 +16,9 @@
 title: deep learn
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Data Science is the art and the science of extracting knowledge and insigts from data in various forms.
+  Machine learning which is a part of the broader field of Data Science, is about using data and statistical
+  techniques to enable the computer systems to learn. Deep Learning is a part of Machine Learning.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: indikaimk
@@ -29,6 +29,11 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+disqus:
+  shortname: indikaimk
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
