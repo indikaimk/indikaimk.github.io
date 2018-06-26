@@ -58,7 +58,7 @@ We will discuss more about NFV and related technologies in upcoming posts.
 
 ## References
 
-1. [Network Functions Virtualisation – Introductory White Paper ] [nfv_white_paper]
+1. [Network Functions Virtualisation â€“ Introductory White Paper ] [nfv_white_paper]
 
 [nfv_white_paper]: https://portal.etsi.org/NFV/NFV_White_Paper.pdf
 [etsi]: http://www.etsi.org
