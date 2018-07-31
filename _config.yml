@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Machine learning which is a part of the broader field of Data Science, is about using data and statistical
   techniques to enable the computer systems to learn. Deep Learning is a part of Machine Learning.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://indikaimk.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: indikaimk
 github_username:  indikaimk
 

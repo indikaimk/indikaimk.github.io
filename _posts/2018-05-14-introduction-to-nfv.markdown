@@ -26,7 +26,7 @@ These new players were mostly software centric with their core product being dev
 
 Motivated by these industry requirements the ETSI NFV ISG defined a conceptual architecture for realizing NFV.
 
-![NFV Architecture] ({{ "/assets/images/nfv_architecture.png" | absolute_url }})
+![NFV Architecture]({{ "/assets/images/nfv_architecture.png" | absolute_url }})
 
 The ETSI architecture consists of:
 
