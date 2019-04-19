@@ -1,17 +1,18 @@
 ---
 layout: post
 title:  "Three Pillars of NFV"
-date:   2018-08-07 18:30:00 +0530
+date:   2018-09-10 23:30:00 +0530
 categories: NFV cloud telco
 ---
 
-In a previous article we discussed about the [benefits that NFV brings in to the telecom network]({{ site.baseurl }}{% post_url  2018-08-07-benefits-of-nfv %}). However in order to effectively reap those benefits it is essential to understand some basic concepts, upon which all these benefits rely on. Considering and integrating these basic concepts from the early stage will definitely pay off in the latter part of any NFV journey.  While it is possible to virtualize an entire network ignoring these concepts, it will end up in a situation that is not very different from a legacy telecom network where PNFs  (Physical Network Functions) are one to one replaced by VNFs (Virtual Network Functions) with the current inefficiencies still prevailing. 
+Considering and integrating some basic concepts from an early stage will definitely pay off in the latter part of any NFV journey. While it is possible to virtualize an entire network ignoring these concepts, it will end up in a situation that is not very different from a legacy telecom network where PNFs  (Physical Network Functions) are one to one replaced by VNFs (Virtual Network Functions) with the current inefficiencies still prevailing. <!--more--> 
 
 # The concepts
 
+In a previous article we discussed about the [benefits that NFV brings in to the telecom network]({{ site.baseurl }}{% post_url  2018-08-07-benefits-of-nfv %}). However in order to effectively reap those benefits it is essential to understand some basic concepts, upon which all these benefits rely on. 
 There are three basic concepts: simple, agile and programmable- that should be integrated in to every NFV transformation. 
 
-![Three basic Concepts] ({{ "/assets/images/nfv_concepts.png" | absolute_url }})
+![Three basic Concepts]({{ "/assets/images/nfv_concepts.png" | absolute_url }})
 
 Most of our expected benefits of NFV are built upon these three concepts. So let's look in to them in detail.
 
@@ -42,6 +43,6 @@ NFV eliminate the vendor specific hardware, replacing it with COTS servers. Whil
 # How to operationalize these concepts?
 At this point it should be crystal clear that NFV transformation is simply not about bringing in the most advanced or feature-rich NFV infrastructure with a cutting-edge NFV Orchestrator. A lot of benefits of NFV relies more on the functionality of VNF than on features of NFVi. 
 
-![NFV benefits rely more on VNF than on NFV] ({{ "/assets/images/nfv_pillars.png" | absolute_url }})
+![NFV benefits rely more on VNF than on NFV]({{ "/assets/images/nfv_pillars.png" | absolute_url }})
 
 An NFV transformation should never be considered as bringing in a new application or a tool. NFV requires disruptive changes to the entire operating ecosystem of telecom operators in order to yield its full benefit and the three concepts described above would provide a baseline for identifying those changes. If this ecosystem change is not executed properly NFV would be just another new technology that would be silently absorbed in to the existing ecosystem and may end up not living up to its originally claimed expectations.

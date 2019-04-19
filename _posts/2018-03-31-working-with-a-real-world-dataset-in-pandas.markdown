@@ -5,8 +5,9 @@ date:   2018-03-31 06:20:00 +0530
 categories: python pandas csv grouping
 ---
 
-We got a brief introduction to [pandas] [pandas] in our [previous post] [introduction]. In this post we are going use [pandas] [pandas] for a real world use case: analysing data in a telecommunication network.
+In this post we are going use pandas for a real world use case: analysing data in a telecommunication network. <!--more-->
 
+We got a brief introduction to [pandas] [pandas] in our [previous post] [introduction]
 First we will import `pandas`, and `numpy` also since we will be using it in our analysis.
 
 {% highlight python %}

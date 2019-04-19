@@ -4,7 +4,7 @@ title:  "Getting Started with R"
 date:   2017-04-17 15:37:57 +0530
 categories: R
 ---
-Want to be a data scientist? Time you invest on learning R, will not be wasted for sure. R may not be popular among the general software developers and rightly so since it is not a general purpose programming language. Instead R is loved and respected by data scientists around the world for its capabilities.
+Want to be a data scientist? Time you invest on learning R, will not be wasted for sure. R may not be popular among the general software developers and rightly so since it is not a general purpose programming language. Instead R is loved and respected by data scientists around the world for its capabilities. <!--more-->
 
 R is an open source programming language for statistical computing. It runs on all the major computing platforms and operating systems. The open source nature of R has enabled thousands of developers around the world to contribute and develop it. The functionality of R is enhanced by more than 10000 additional free packages available in [CRAN][cran-project] pakage repository.
  

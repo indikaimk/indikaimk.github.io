@@ -1,0 +1,143 @@
+.profile{
+    background-color: #001726;
+    padding-top: 10px;
+}
+
+.img-circle {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.block-center{
+    display: block;
+    margin: auto;
+}
+.name{
+    padding-top: 10px;
+    color: #D4E0B1;
+    text-align: center;
+}
+.personal-pitch{
+    font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+    padding-top: 20px;
+    color: #D4E0B1;
+    text-align: center;
+    margin-bottom: 8px;
+    padding-top: 8px;
+}
+.username{
+    color: #D4E0B1;
+    text-decoration: none;
+}
+.social-icons{
+    padding-top: 10px;
+}
+
+.social-icon-list{
+    padding: 0px;
+    width: 100px;
+}
+
+.social-icon-list li{
+    display: inline;
+}
+
+.social-icon{
+    width: 38px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+h1, a h3{
+    font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color:#0B768C;
+}
+
+h2{
+    font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    color:#0B768C;  
+}
+
+.post{
+    border-bottom: 1px solid #4D967B;
+    padding-left: 4px;
+    margin-right: 20px;
+    transition: all .4s cubic-bezier(.25,.8,.25,1);
+}
+
+.post:hover{
+    background-color: #D4E0B1;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.25), 0 3px 3px rgba(0,0,0,0.22);
+}
+
+.no-underline{
+    text-decoration: none !important;
+}
+
+a h3{
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color:#0B768C;
+    padding-top: 4px;
+}
+.post-link{
+    font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+    color: #001726;
+}
+.post-link:hover{
+    color: #001726 !important;
+}
+.post-link p{
+    margin-bottom: 0px
+}
+
+.post-meta-container{
+    height: 24px;
+}
+.post-meta{
+    font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    background-color: #4D967B;
+    padding-left: 6px;
+    padding-right: 6px;
+    float: right;
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #0B768C;
+}
+
+.post-list{
+    list-style-type: none;
+}
+
+h1.post-title{
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    color:#0B768C;
+    font-weight: 600;
+}
+
+.post-content{
+    font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+    color: #001726;
+}
+
+.post-content h1{
+    font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color:#0B768C;
+    font-weight: 400;  
+}
+
+
+
+

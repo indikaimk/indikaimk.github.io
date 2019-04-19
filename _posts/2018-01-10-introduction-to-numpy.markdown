@@ -4,7 +4,7 @@ title:  "Introduction to NumPy"
 date:   2018-01-10 02:43:21 +0530
 categories: python numpy
 ---
-[Python] [python] is a popular language used in the world of data science and scientific computing. Much of the power of Python is due to the vast number of feature-rich packages that are built around it. [NumPy] [numpy] is one such package, which actually forms the basis of scientific computing in [Python] [python]. So if you are into data science with [Python] [python] it is essential that you master how to use [NumPy] [numpy]. 
+Python is a popular language used in the world of data science and scientific computing. Much of the power of Python is due to the vast number of feature-rich packages that are built around it. NumPy is one such package <!--more-->, which actually forms the basis of scientific computing in [Python] [python]. So if you are into data science with [Python] [python] it is essential that you master how to use [NumPy] [numpy]. 
 
 At its core NumPy enables you to perform a multitude of mathematical operations on multidimensional arrays. Now you may think that same can be done using Python sequences. However you may run into trouble if you have to deal with very large data sets containing millions of entries. 
 

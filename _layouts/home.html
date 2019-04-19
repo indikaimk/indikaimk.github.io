@@ -2,33 +2,58 @@
 layout: default
 ---
 
-<div class="home">
-  {% if page.title %}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {% endif %}
+<div class="home container-fluid">
+  <div class="row">
+    <section class="profile col-3">
+      <img class="img-circle block-center" src="https://www.gravatar.com/avatar/314f86a3d25a67dc7e14703593d4f286" alt="">
+      <h2 class="name">indika kodagoda</h2>
+      <p class="personal-pitch">
+        Engineer, passionate about learning and solving problems.
+      </p>
+      <p class="personal-pitch">
+        Currently working at a telco. Have a deep interest on NFV, Cloud and AI. This blog is the outcome of my love for learning, writing and sharing.
+      </p>
+      <div class="social-icons">
+        <ul class="social-icon-list block-center">
+          <li><a href=""><img class="social-icon" src="/assets/images/Twitter_Social_Icon_Circle_White.png" alt=""></a></li>
+          <li><a href=""><img class="social-icon" src="/assets/images/In-White-41px-TM.png" alt=""></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="pages col-9">
+      <nav>
+        <ul>
+          <li><a href="">blog</a></li>
+        </ul>
+      </nav>
 
-  {{ content }}
+      {% if page.title %}
+        <h1 class="page-heading">{{ page.title }}</h1>
+      {% endif %}
 
-  {% if site.posts.size > 0 %}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {% if site.show_excerpts %}
-          {{ post.excerpt }}
-        {% endif %}
-      </li>
-      {% endfor %}
-    </ul>
+      {{ content }}
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {% endif %}
+      {% if site.posts.size > 0 %}
+        <h2 class="post-list-heading">{{ page.list_title }}</h2>
+        <ul class="post-list">
+          {% for post in site.posts %}
+          <li class="post">
+            <a class="post-link no-underline" href="{{ post.url | relative_url }}">
+                <h3>{{ post.title | escape }}</h3>
+                {{ post.excerpt }}
+            </a>
+            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            <div class="post-meta-container">
+              <span class="post-meta">{{ post.date | date: date_format }}</span>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
 
+        
+      {% endif %}
+
+    </section>
+  </div>
 </div>

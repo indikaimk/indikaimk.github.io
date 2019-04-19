@@ -4,7 +4,9 @@ title:  "NumPy Array Operations"
 date:   2018-01-15 08:00:00 +0530
 categories: python numpy
 ---
-In a [previous post] [introduction] we discussed about [NumPy] [numpy], which forms the basis for most of the scientific computing in [Python] [python]. Today we are going to delve a little deeper into `ndarray`; the core object in NumPy package.
+Today we are going to delve a little deeper into `ndarray`. <!--more-->
+
+In a [previous post] [introduction] we discussed about [NumPy] [numpy], which forms the basis for most of the scientific computing in [Python] [python]. `ndarray` is the core object in [NumPy] [numpy] package.
 
 Essentially `ndarray` is an n-dimensional homogeneous array, which is capable of holding a large data set and applying a wide range of mathematical operations on it. Most of these operations are implemented in compiled C code for efficient execution.
 

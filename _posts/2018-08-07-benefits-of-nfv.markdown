@@ -5,7 +5,7 @@ date:   2018-08-07 19:30:00 +0530
 categories: NFV cloud telco
 ---
 
-[NFV]({{ site.baseurl }}{% post_url  2018-05-14-introduction-to-nfv %}), currently in its 3rd release as of 2018 is in the center of attraction of telecom operators all over the world. While some Telcos are still cautiously observing this technology transformation the high-tech front-runners are intensely working on NFV projects with their own expectations. Whatever the driving factors of these NFV projects are, NFV is going to bring in some common benefits to the telecom networks.  
+NFV, currently in its 3rd release as of 2018 is in the center of attraction of telecom operators all over the world. While some Telcos are still cautiously observing this technology transformation the high-tech front-runners are intensely working on NFV projects with their own expectations. Whatever the driving factors of these NFV projects are, NFV is going to bring in some common benefits to the telecom networks.  <!--more-->
 
 Before continuing we need to be aware of the fact that NFV will transform the operations model of telecom operators to a software centric one from the traditional model centered on hardware boxes. It is this software centric nature that brings in all these benefits to the telecom networks. So let's find out what these benefits are. 
 

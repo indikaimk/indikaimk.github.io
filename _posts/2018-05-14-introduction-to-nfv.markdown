@@ -5,7 +5,7 @@ date:   2018-05-14 18:30:00 +0530
 categories: NFV cloud telco
 ---
 
-Network Function Virtualization (aka NFV) is not just a magazine headline today. From its beginning in 2012, NFV has rapidly evolved through multiple standard revisions, PoCs, field trials and has entered large scale deployments in some tier-1 telecom service providers. So in this post we will build the NFV concepts from the ground up.
+Network Function Virtualization (aka NFV) is not just a magazine headline today. From its beginning in 2012, NFV has rapidly evolved through multiple standard revisions, PoCs, field trials and has entered large scale deployments in some tier-1 telecom service providers. So in this post we will build the NFV concepts from the ground up. <!--more-->
 
 # Traditional Telecom Applications
 Due to their nature of intensive reliability and real-time performance requirements, conventional telecom applications such as MSC server, MGW, MME, S/PGW etc. were designed and built to run on proprietary and vendor specific hardware. These equipment were built by a few large companies who could afford to invest the millions of dollars that were required for designing and building this type of high end hardware and software. With the advent of NFV these applications have been labelled as Physical Network Applications (PNF).

@@ -5,7 +5,7 @@ date:   2017-06-18 20:00:00 +0530
 categories: R
 ---
 
-Twitter is an interesting place for a Data Scientist not just because of the Tweets you can get related to that subject. Twitter exposes its Tweets data via an API which can be used to download a set of Tweets for offline analysis. 
+Twitter is an interesting place for a Data Scientist not just because of the Tweets you can get related to that subject. Twitter exposes its Tweets data via an API which can be used to download a set of Tweets for offline analysis. <!--more-->
 
 While you certailny would be able to develop an R program from scratch for working with the Twitter API, it would be much easier to work with an R package that is already developed for Twitter. Today we are going to work with one such package [rtweet] [rtweet].
 

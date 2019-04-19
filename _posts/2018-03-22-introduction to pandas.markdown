@@ -4,7 +4,7 @@ title:  "Introduction to Pandas"
 date:   2018-03-22 05:00:00 +0530
 categories: python pandas
 ---
-If you were to ask a bunch of data scientists "What is the go-to [Python] [python] package for real world data analysis?" definitely the answer would be "[Pandas] [pandas]" and there is a good reason for that. [pandas] [pandas] provides data structures that can hold large data sets of multiple data types and a wide range of analytic tools that can operate on the data sets.
+If you were to ask a bunch of data scientists "What is the go-to Python package for real world data analysis?" definitely the answer would be "Pandas" and there is a good reason for that.  <!--more-->[pandas] [pandas] provides data structures that can hold large data sets of multiple data types and a wide range of analytic tools that can operate on the data sets.
 
 # Data Structures
 
