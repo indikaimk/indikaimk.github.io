@@ -13,7 +13,7 @@ Due to their nature of intensive reliability and real-time performance requireme
 # What NFV is?
 So what really is NFV? It is about virtualizing these conventional telecom applications (or PNFs) and migrating them to data centers equipped with commodity computing hardware. 
 
-![Virtualizing PNFs]({{ "/assets/images/virtualizing_pnfs.png" | absolute_url }})
+<img src="{{ "/assets/images/virtualizing_pnfs.png" | absolute_url }}" alt="drawing" width="1000"/>
 
 Virtualization is nothing new to the IT industry which has been using it in various forms since 1960s. Today considerable amount of IT workloads are running on both public and private virtualized infrastructure. However telecom applications have some inherent feature differences from their IT counterparts that makes it particularly challenging to run them on virtualized infrastructure. Higher demand on network bandwidth, lower latency requirements, fault tolerance and resiliency are some of them.
 
@@ -32,27 +32,27 @@ The ETSI architecture consists of:
 
 1. Hardware
 
-The hardware consists of compute, network and storage nodes. All these are the standard, off the shelf hardware that are used in IT data centers. Compute nodes contain standard x86 architecture CPUs running standard Linux based Operating Systems while the network nodes consists of switches and routers that facilitates the interconnection between the compute nodes. The inbuilt hard disks of compute nodes or separate disk arrays can implement the function of the storage nodes.
-	
+   The hardware consists of compute, network and storage nodes. All these are the standard, off the shelf hardware that are used in IT data centers. Compute nodes contain standard x86 architecture CPUs running standard Linux based Operating Systems while the network nodes consists of switches and routers that facilitates the interconnection between the compute nodes. The inbuilt hard disks of compute nodes or separate disk arrays can implement the function of the storage nodes.
+
 2. Hypervisor
 
-Hypervisor is the main software component that runs on the compute nodes and provide virtual compute resources: vCPU, vMemory and vNIC,  that is used to build virtual machines (aka VM) which can run an operating system.
+   Hypervisor is the main software component that runs on the compute nodes and provide virtual compute resources: vCPU, vMemory and vNIC,  that is used to build virtual machines (aka VM) which can run an operating system.
 
 3. Virtual Infrastructure Manager (VIM)
 
-VIM is responsible for managing virtual resources and VMs. VIM can instantiate VMs, allocate resources to the VM and terminate the VM thus reclaiming the virtual resources. It is also responsible for creating the netwok connectivity between the VMs. Before the concept of NFV was born in the IT virtualization Open Stack has been widely used to implement a similar functionality. Once the NFV implementation gathered momentum the industry has adapted Open Stack for VM.
+    VIM is responsible for managing virtual resources and VMs. VIM can instantiate VMs, allocate resources to the VM and terminate the VM thus reclaiming the virtual resources. It is also responsible for creating the netwok connectivity between the VMs. Before the concept of NFV was born in the IT virtualization Open Stack has been widely used to implement a similar functionality. Once the NFV implementation gathered momentum the industry has adapted Open Stack for VM.
 	
 4. VNF Manager (VNFM)
-	
-VNFM as the name explains itself, is responsible for managing the VNFs. A VNF consists of a set of interconnected VMs that provide a specific service to the outside world, ex- vHLR. The VNFM interworks with the VNF and enable some dynamic functions such as auto scaling. There could be multiple VNFMs for multiple VNFs.
+
+   VNFM as the name explains itself, is responsible for managing the VNFs. A VNF consists of a set of interconnected VMs that provide a specific service to the outside world, ex- vHLR. The VNFM interworks with the VNF and enable some dynamic functions such as auto scaling. There could be multiple VNFMs for multiple VNFs.
 	
 5. NFV orchestrator (NFVO)
-	
-NFVO handles the ultimate orchestration function. It is responsible for maintaining a catalog of VNFs and instantiating them according to requests from external parties such as a human operator.
-	
-Collectively VIM, VNFM and NFVO is called MANO (Management and Orchestration). The hardware, hypervisor and the virtual resources (VMs) are known as NFV Infrastructure (NFVI).
 
-ETSI has identified the interfaces among these different components and is actively working on defining and maintaining the interface specifications.
+   NFVO handles the ultimate orchestration function. It is responsible for maintaining a catalog of VNFs and instantiating them according to requests from external parties such as a human operator.
+	
+   Collectively VIM, VNFM and NFVO is called MANO (Management and Orchestration). The hardware, hypervisor and the virtual resources (VMs) are known as NFV Infrastructure (NFVI).
+
+   ETSI has identified the interfaces among these different components and is actively working on defining and maintaining the interface specifications.
 
 We will discuss more about NFV and related technologies in upcoming posts.
 
