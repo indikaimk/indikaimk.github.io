@@ -1,0 +1,22 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ page.title }}</title>
+  <meta name="description" content="{{ page.description }}">
+  {%- include enhanced_seo_tags.html -%}
+
+
+  <meta name="og:title" content="{{ page.title }}">
+  <meta name="og:description" content="{{ page.description }}">
+  <meta name="og:image" content="{{ page.cover_image_url }}">
+  <meta name="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta name="og:locale" content="en_US">
+
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+</head>
