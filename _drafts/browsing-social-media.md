@@ -1,45 +1,63 @@
 ---
 layout: post
-title:  "From shallow to deep"
+title:  "Go deep. Your mind deserves it"
 date:   2024-04-17 06:01:18 +0530
 category: blog
 ---
 
-Why would you need to fill your mind with worthless shallow stuff when it's much better be filled with deep stuff. 
+1. how many: one
+2. The who: shallow content consumer
+3. The what: stop clogging your mind with shallow content and go deep
+4. The why: think better, clear your mind, take control of your life 
+5. Twist the knife: avoid being an average person
 
-You are consuming a lot of shallow content when you are browsing social media. This is not worth. It's not what the mind is made for. And it's not what you are made for. 
+You are consuming a lot of shallow content daily. Mostly on social media.
 
-But, that's what actually many do. They fill their minds with a bunch of shallow stuff from other people by browsing social media every day, or every hour for some people. 
+This is not what your mind is made up for. It's not what you are made up for.
 
-A social media feed consists of a series of shallow content created by a bunch of people out of which many did not take the time or the effort to produce something of quality or vlaue. 
+But, that's exactly what many people choose to do. They consume lots and lots of shallow stuff by browsing social media everday, more scaringly, every hour. 
 
-Browsing social media means is going throuhgh a lot of shallow stuff. which is not worth. your brian get filled with shallow stuff and get clogged/
+A typical social media feeds consists of a series of shallow pieces of content (also known as posts). Out of the people who create such pieces of content, many do not take the time or the effort to produce something of quality or vlaue.
 
-long foem reading make your mind deeper and let it hold a few core deep concets. mind does not get clogged. 
+ike eating fast food that feels tasty by not healthy, consuming each piece of such content is easy but not healthy to the mind.
 
-It has become a norm for ordinary people to go through the social media on a daily basis. some even eery hour. their belief is that it's taking a break from the hard work whatever thay've been doing. whether it's writing sales letters or writing code, or moving crates. 
+Each consecutive piece of information fill up your mind without giving the slightest chance to the mind to go deep on anything.
 
-But is it really taking a brake.
+It clogs the natural flow of your mind.
 
-wha t happens your brain when you get to consule a series of discontinued pieces of information. Each piece is interesting just becaese it's easy to consume - like fast food. But each consecutive piece replace the previous and the mind does not get the chace to dig deep in any piece.
+Doing this for a long time the mind gets used to consuming shallow content without going deep.
 
-Then the mind get clogged holding on to so much information at shallow. It blunts the ability to think and go deep in any matter. When the mind gets trained like this fro a long time. 
+It blunts the ability to think and go deep in any matter. Worst still the mind may deceive you to think that you are a person of simple tastes.
 
-Deep reading is quite the opposite. It let the mind abosrn a series of information that are related. This is like eating a healthy meal. Each consecutive piece of information let the mind dive deeper. When trained like this for a long time the mind can get deep and hold a few deep concept s. Not clogged with little bits and pirece of informattion. 
+Long-form reading is quite the opposite. It lets the mind abosrb a series of information that are related. This is like slowly eating a healthy meal. Each consecutive piece of information let the mind dive deeper. When trained like this for a long time the mind can get deep and hold a few deep concept s. Not clogged with little bits and pirece of informattion. 
 
-The great minds of this world have been thinkers. They have changed the world by thinking deep and putting their thoughts into actions. The shallow minded people will never make this kind of impact on the world.
+Your mind develops the ability to tink deep over time.
+
+This is what your mind is made up for.
+
+The great minds of this world have been deep thinkers. They have changed the world by thinking deep and putting their thoughts into actions. The shallow minded people will never make this kind of impact on the world.
 
 So how should I get on with practicig deep mind. 
 
 Stop consuming short bits of shallow pieces in socia media. For the matter on any media. Socual media is the prominene type of meid that has truckloads of this kind of pieces of information. But there could be newspapers, television channels, radio channels or even people who continupusely pour out this kind of information. Shut those media immediately from your life. 
 
-Practing to go deep is not easy. Especially reading is not easy for a person who is not used to readi. If you do not fill the void of the social media it will get filled with something.
+The moment you shutdown these media it creates a void in your mind. You must fill that void with  long-form content; quality books, articles, etc.
+
+Consuming long-form content allows your mind to go deep.
+
+Practing to go deep is not easy. Especially deep reading is not easy for a person who is not used to reading.
 
 So if you find reading hard enough at the beginning do waht?
 
-Start writing.
+Start writing. Yes. you heard it right.
+
+But writing is harder than reading. You may think.
 
 Not publishing a nice blog. If you start like that it will never materialize. Start by journaling in a notebook with a pencil. In the previpus generation called this writign a diary. And many a great men did that.
+
+And today we call this process journaling.
+
+Writing a diary is not demanding. There's no wrong way to do it. There's no strain on quality. You are just writing to yourself. 
 
 While a Diary is considered private, there are many diarie shtat wer later published and revealed wonferful stories ot the world. 
 
@@ -49,3 +67,10 @@ If you think notebook and pencils is not your taste, you can use a laptop and so
 
 Just try to do it and discover yourself whehter it workd for you or not. Perhanps you may find it quite joyful to hear the pencil crushing the tiny parts of the paper. For some of you it may be the first tim after primary school they get this type of experiecne. Neverthless it's worht th try. 
 
+It's not enough to write oneday. You need to write daily to practice. Once you get the practice journaling becoems effortless. 
+
+Once you get mature in yuur journaling habit, your mind will find it easure to concentrate on deep reading. Reading is an essential part of life, especially in the 21st century, where knolwedege no longer matters. 
+
+Reading trains your mind to think deeply.
+
+Why fill your mind with worthless shallow stuff when the mind craves for deep stuff. 
