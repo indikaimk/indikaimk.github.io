@@ -2,7 +2,6 @@
 layout: post
 title:  "Journaling, the gateway to long-form reading"
 date:   2024-06-01 06:01:18 +0530
-category: blog
 ---
 
 You consume a lot of shallow content daily, mostly on social media.
