@@ -1,0 +1,3 @@
+Just get into the habit of jounaling and discover yourself how big an impact it will make upon you. But do note, you will not feel the impact on day-1.
+
+Do not expect that journaling one day will change your life. You need to write daily and write for some time. In the beginning you may find it hard to journal daily. Over time it will be effortless and will also be the first thing you do in the morning. 
