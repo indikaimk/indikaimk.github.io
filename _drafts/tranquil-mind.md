@@ -1,0 +1,1 @@
+the mind lose tranquility due to ego. no ego. tranquil mind.
