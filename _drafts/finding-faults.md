@@ -1,64 +1,86 @@
 ---
 layout: post
-title: From finding faults to finding your own faults
+title: How to find subtle faults within yourself and correct them
 date: 2024-07-15 06:01:18 +0530
 ---
 
-We all are comfirtable at if not eager to find faults of othes.
+We all are comfirtable if not eager to find faults with other people.
 
-Finding faults is mentally satisfying. It elusively raise our self-esteem by lowering that of others around us. 
+Finding faults with others is mentally satisfying.
 
-when you have a like-minded friend or neighbor Finding faults becomes even more intresting.
+It elusively raises our self-esteem by lowering that of others around us. 
 
-You can just talk away for hours about others faults. It's that easy.
+Finding faults becomes even more intresting when you have a like-minded friend - some one who is also eager at criticising people. You will be talking away for hours and hours about faults of other people. 
 
-But we don't always need anyone else to find faults. In fact most of us find faults of others when we are alone. We mentallu critisize and blame many for our problems. Even without our awareness.
+But we don't always need a partner to find faults. In fact, most of us find faults in internal dialogues. We critisize and blame other people for our problems in our inner speeches.
 
-An acid test of that you have been findng faults is that after thinking or talling about something there's no action point. 
+We all agree that finding faults with other people is bad.
 
-Of course you don't have actions points after small talk - like how did you enjoy your weekend. But if some serios talk ends up with no any action points, that's a good sign that all you have been doing was finding faults. 
+But sometimes we engage in these fault finding dialogues - internal or external - without really knowing that we are finding faults. The act of finding faults is so subtle that you, youself are not aware that you a finding faults with other people.
 
-The reason that there is no action required from your side is you have put all things in the responsibility fo the other party. 
+If you are constantly thinking that your potential is limited by someone else, it could be a sign that you are finding others fauolts secretly.
 
-Some of you may have suppresses this habit of finding faults. It's a good. But in some situations, deep within you, you may be at a mental struggle to accuse someone else for what happened to you.
+A typical fualt finding conversation ends up with no action points to us. And that's what makes fault finding particularly easy. It demands zero work from our side as we park all responsibility in the court of the victim we found so many faults with.
 
-And you may be doning it in a subtle eay that you youself are not aware that you a finding faults of others.
+You can, with some effort, suppress the habit of finding faults with people. But the human mind is like an untamed wild beast. So, the reason that you are not finding faults with other people today is not a guarantee to that you will not be find faults with others in future. You could fall into that even unknowingly.
 
-If you are constantly thinking that your potential is limited by someone else, it could be you are finding others fauolts secretly.
+Finding faults with people is worthless, time-wasting, energy-depleting excersice. 
 
-for most of us, it is really hard to totally ignore others faults as we encounter them daily.
+What if we can use this fault finding abilit to our good. 
 
-But there's a way we all can use the abiltiy of finding faults to our own  benefit.
+Observe others faults, reflect and correct if those faults are in us too.
 
-Observe others faults and apply them to ourseleves.
+That's easily said than done. 
 
-The common first reaction to someones fault is furstration and anger. Anger if converted into words or deeds can cause serious consequences. Even if not converted to words or deeds, anger hinders clear thinking and problem solving abilities.
+Observing others' faults and then reflecting whether somethign in us need to be corrected is not a natural thinking patter that we have trained in.
 
-So we must change how we react when we feel that we are wronged with someone elses fault.
+So, it will not naturally occur into our minds. So, we must train our mind to do that.
 
-It it something that I can correct in my life?
+And the tool to train our mind is daily jornaling. 
 
-This thinking pattern is not easy. Most of us are not used to it. 
+Use your journal to dump everything you observe and think about others faults. Write your opinion and what would you have done if you were in the same situation. 
 
-Here's where journaling can help you. 
+This kind of reflective writing will urge your mind to come up with better things you could have done, had you been in the same situation and the other person. 
 
-Get into the habit of journaling. If you come across someone's fault either in thought or physically, journal it. 
+This reflective writing will reveal to yourself what faults in yourself need to be corrected.
 
-Write what you saw, what happened. How were you impacted by it. 
+Of course, identifying the faults is not enoug to correct them. You must make a plan how to correct such faults. This will be challenging if theose faults are deeply rooted in your behavior. But at leasrt being able to uncover those faults, yoi have set the first step to improving yourself.
 
-What could he or she could have done better?
+We can further expand this practice to identify our faults from yesterday's self.
 
-Will I, if ever faced the same cicumstance is in a better position to do something about it
+You are not the person you were yesterday. Thin of your yesterday's self as a different person and reflectively jounrla what you could have done better. 
 
-Put yourself in that ohter persons situation. How would you do better.
+You'll be able to discover subtle faults in your behaviour that have obscuredy held you in your current position without letting you achieve tose big goals.
 
-This joournaling approach can train your mind to think like this. As you practice this your mind will trian to observe others faults and apply them to yourself. 
+This tyoe of journaling helped me identify some subtle faults in my bahaviour. I had a habit of withdrawing from work, when encoutered with a mentally challenging task. Assume I am writing a blog post. When encoutered with some mentlally challenging section, I would pause work and go for some pleasurable activty like reading an email, or some petty taks tha t I could tick off my toso list.
 
-Once you are comptente obserer of others faults and applying them to yourself 
+This gave me a mentla satisfcation that I was working but prevented me from achieving the deep work status. I am not fully over that habit but at least identifying that was a great thing because noe I can work to correct it.
 
-then the next step is to compare yourself with yourself yesterday. what can I correct. what did I do wrong. what was the consquence of the wrong thing. what was the price I had to pay for not dong the correct thing.
+Journaling is an awesome tool that many people neglect with variuos excuses. But try journaling and it will change your life 
 
-Journaling can help you in this too. It's a healthy conversation with your innerself. 
+The ability to finding one's own faults is a gift. While it may be uncomfirtable firs, it's a great opportunity that can help yo achieve those big tough goals that you have written down but not yet achieved.
+
+
+
+
+
+Journal about how you spent yesterday reflecting on what your faults are. What are the things that you need to correct that will improve efficiency and productivity.
+
+You'll be able to identify your faulty behaviours that need to be corrected. Write those faulty behaviors down. Review your jounral the next day and remind yourself not to make the same mistakes today. Ofcourse you'll not be able to correct all your faults in a single day. But repeating this action you'll be able to correct at least one fault everyday.
+
 
 It's always better to find faults with yourself and correct your mistakesa as you will get to improve.
 
+
+
+
+
+
+
+Reflect whether we also have the same behavioral pattern and make a plan to correct that pattern in ourself.
+
+What we are effectively doing is instead of a mental or verbal dialog we try to reflecton our behavour to see if we also have the same flow that we observerd in another person.
+
+Instead of wasting our mental energy on criticising others we excert to identify our faults and correct them.
+
+This journaling approach will help you identify flows in your behaviour that you can correct. 
